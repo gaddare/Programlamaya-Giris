@@ -1,0 +1,11 @@
+ public static void main(String[] args){
+        
+        Scanner tr = new Scanner(System.in);
+        System.out.print("Şuan Ki Yılı Giriniz:");
+        int a = tr.nextInt();
+        System.out.print("Yaşınızı Giriniz:");
+        int b = tr.nextInt();
+        System.out.println("Doğum Gününüz :"+(a-b));
+        
+                
+    }
