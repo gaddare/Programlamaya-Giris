@@ -1,0 +1,10 @@
+  public static void main(String[] args){
+        
+        Scanner is = new Scanner(System.in);
+        System.out.print("Bir İşçinin İşi Bitirme Süresini Giriniz:");
+        double a = is.nextDouble();
+        System.out.print("Kaç İşçi Çalışacak:");
+        double b = is.nextDouble();
+        double bitis = a/b;
+        System.out.println("İşin Bitme Süresi :"+bitis);        
+    }
